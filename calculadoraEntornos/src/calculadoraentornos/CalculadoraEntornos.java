@@ -47,4 +47,60 @@ public class CalculadoraEntornos {
         
     }
     
+    private static void sumar() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Ingrese el segundo número: ");
+        double num2 = scanner.nextDouble();
+
+        double resultado = num1 + num2;
+        System.out.println("Resultado de la suma: " + resultado);
+    }
+
+    private static void restar() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Ingrese el segundo número: ");
+        double num2 = scanner.nextDouble();
+
+        double resultado = num1 - num2;
+        System.out.println("Resultado de la resta: " + resultado);
+    }
+
+    private static void multiplicar() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Ingrese el segundo número: ");
+        double num2 = scanner.nextDouble();
+
+        double resultado = num1 * num2;
+        System.out.println("Resultado de la multiplicación: " + resultado);
+    }
+
+    
+    private static void dividir() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese el numerador: ");
+        double numerador = scanner.nextDouble();
+
+        System.out.print("Ingrese el denominador: ");
+        double denominador = scanner.nextDouble();
+
+        if (denominador != 0) {
+            double resultado = numerador / denominador;
+            System.out.println("Resultado de la división: " + resultado);
+        } else {
+            System.out.println("Error: División por cero no permitida.");
+        }
+    }
 }
