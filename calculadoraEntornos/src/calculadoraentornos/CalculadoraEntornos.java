@@ -5,11 +5,13 @@ import java.util.Scanner;
 
 /**
  *
- * @author alumno
+ * @author Alexis García Aguado
+ * @author Javier Cuadrado García
  */
 public class CalculadoraEntornos {
 
     public static void main(String[] args) {
+        //Programa de una calcualdora. Colaborativo entre Alexis y Javier.
         
         Scanner sc = new Scanner(System.in);
         boolean salir = false;
@@ -41,6 +43,7 @@ public class CalculadoraEntornos {
         }
 
         sc.close();
+        
         
     }
     
