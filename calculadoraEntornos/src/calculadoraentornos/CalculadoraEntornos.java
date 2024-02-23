@@ -61,6 +61,13 @@ public class CalculadoraEntornos {
         System.out.print("Seleccione una opción (1-5): ");
     }
 
+    /*
+    * Realiza la suma de dos números ingresados por el usuario.
+    * Utiliza un objeto Scanner para obtener la entrada del usuario desde la consola.
+    * Imprime el resultado de la suma en la consola.
+    * 
+    * Este método no acepta parámetros y no devuelve ningún valor.
+    */
     private static void sumar() {
         Scanner scanner = new Scanner(System.in);
 
@@ -74,6 +81,14 @@ public class CalculadoraEntornos {
         System.out.println("Resultado de la suma: " + resultado);
     }
 
+    /*
+    * Realiza la resta de dos números ingresados por el usuario.
+    * Utiliza un objeto Scanner para obtener la entrada del usuario desde la consola.
+    * Imprime el resultado de la resta en la consola.
+    * 
+    * Este método no acepta parámetros y no devuelve ningún valor.
+    * 
+    */
     private static void restar() {
         Scanner scanner = new Scanner(System.in);
 
@@ -87,6 +102,13 @@ public class CalculadoraEntornos {
         System.out.println("Resultado de la resta: " + resultado);
     }
 
+    /*
+    * Realiza la multiplicación de dos números ingresados por el usuario.
+    * Utiliza un objeto Scanner para obtener la entrada del usuario desde la consola.
+    * Imprime el resultado de la multiplicación en la consola.
+    *  
+    * Este método no acepta parámetros y no devuelve ningún valor.
+    */
     private static void multiplicar() {
         Scanner scanner = new Scanner(System.in);
 
@@ -100,7 +122,15 @@ public class CalculadoraEntornos {
         System.out.println("Resultado de la multiplicación: " + resultado);
     }
 
-    
+   /*
+    * Realiza la división de dos números ingresados por el usuario.
+    * Utiliza un objeto Scanner para obtener la entrada del usuario desde la consola.
+    * Imprime el resultado de la división en la consola.
+    * Si el denominador es cero, imprime un mensaje de error.
+    * 
+    * Este método no acepta parámetros y no devuelve ningún valor.
+    * 
+    */
     private static void dividir() {
         Scanner scanner = new Scanner(System.in);
 
@@ -116,5 +146,5 @@ public class CalculadoraEntornos {
         } else {
             System.out.println("Error: División por cero no permitida.");
         }
- 
+    }
 }
